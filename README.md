@@ -3,8 +3,8 @@
 ## Todo
 
 - [x] Setup Prettier + Eslint (Tu)
-- [ ] Setup Supabase DB (Tu)
-- [ ] Setup Supabase Auth (Tu)
+- [x] Setup Supabase Auth (Tu)
+- [ ] Find tool to draw UI (Tu)
 
 ## Imports recommendation
 
