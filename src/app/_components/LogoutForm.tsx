@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import { logout } from "../login/actions";
+import { logout } from "../login/_utils/actions";
 
 export const LogoutForm = () => {
   const [logoutState, logoutAction] = useActionState(logout, { error: undefined });

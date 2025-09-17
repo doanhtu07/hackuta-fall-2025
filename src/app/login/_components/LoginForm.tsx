@@ -1,6 +1,6 @@
 "use client";
 
-import { loginMagic } from "@/app/login/actions";
+import { loginMagic } from "@/app/login/_utils/actions";
 import { useActionState } from "react";
 
 export const LoginForm = () => {
