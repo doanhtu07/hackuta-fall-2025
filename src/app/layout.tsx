@@ -1,7 +1,7 @@
+import { UserStoreProvider } from "@/zustand/user-store/UserStorePovider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ReactNode } from "react";
-import { UserStoreProvider } from "@/zustand/user-store/UserStorePovider";
 import { UseCheckAuth } from "./_effects/UseCheckAuth";
 import "./globals.css";
 

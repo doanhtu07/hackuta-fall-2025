@@ -1,9 +1,9 @@
 "use client";
 
-import { type ReactNode, createContext, useRef, useContext } from "react";
+import { type ReactNode, createContext, useContext, useRef } from "react";
 import { useStore } from "zustand";
-import { type UserStore, createUserStore } from "./index";
 import { useShallow } from "zustand/shallow";
+import { type UserStore, createUserStore } from "./index";
 
 export type UserStoreApi = ReturnType<typeof createUserStore>;
 
